@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Kishore K | Software Engineer</title>
+<meta name="description" content="Kishore K – Software Engineer from Chennai. Web development, AI/ML, and cybersecurity."/>
+<link rel="stylesheet" href="style.css"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@700;800&display=swap" rel="stylesheet"/>
+</head>
+<body>
+<div class="bg-glow"></div>
+
+<!-- NAVBAR -->
+<nav id="navbar">
+  <div class="container nav-inner">
+    <a href="#hero" class="logo"><span class="logo-icon">K</span><span class="logo-text">Kishore K</span></a>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <a href="resume.pdf" download="Kishore_K_Resume.pdf" class="btn-outline btn-sm">⬇ Resume</a>
+    <button class="menu-btn" onclick="toggleMenu()">☰</button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#about" onclick="toggleMenu()">About</a>
+    <a href="#experience" onclick="toggleMenu()">Experience</a>
+    <a href="#projects" onclick="toggleMenu()">Projects</a>
+    <a href="#skills" onclick="toggleMenu()">Skills</a>
+    <a href="#contact" onclick="toggleMenu()">Contact</a>
+  </div>
+</nav>
+
+<!-- 1. HERO -->
+<section id="hero" class="hero-section">
+  <div class="container hero-grid">
+    <div class="hero-left fade-in">
+      <div class="badge"><span class="dot"></span>Available for New Opportunities</div>
+      <h1 class="hero-name">Kishore K</h1>
+      <h2 class="hero-title">Software <span class="accent">Engineer</span></h2>
+      <p class="hero-desc">I build modern web applications, AI-driven workflows, and data systems focused on reliability and exceptional user experience.</p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn-primary">View Projects ↓</a>
+        <a href="resume.pdf" download="Kishore_K_Resume.pdf" class="btn-outline">⬇ Resume</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-num" id="project-count">3+</span><span class="stat-label">Projects</span></div>
+        <div class="stat"><span class="stat-num">3+</span><span class="stat-label">Certifications</span></div>
+        <div class="stat"><span class="stat-num">3</span><span class="stat-label">Roles</span></div>
+      </div>
+    </div>
+    <div class="hero-right fade-in-delay">
+      <div class="contact-card glass">
+        <div class="card-header">
+          <div class="card-avatar">K</div>
+          <div><h3>Kishore K</h3><div class="card-line"></div></div>
+        </div>
+        <div class="card-body">
+          <a href="mailto:kishoreswamy2005@gmail.com" class="card-row">
+            <span class="card-icon">✉</span><span>kishoreswamy2005@gmail.com</span>
+          </a>
+          <a href="https://github.com/kishoreswamy2005-droid" target="_blank" class="card-row">
+            <span class="card-icon"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></span>
+            <span>github.com/kishoreswamy2005-droid</span>
+          </a>
+          <a href="https://www.linkedin.com/in/kishore-k-1177283a7" target="_blank" class="card-row">
+            <span class="card-icon" style="color: #0077b5">in</span>
+            <span>linkedin.com/in/kishore-k...</span>
+          </a>
+          <div class="card-row"><span class="card-icon">📍</span><span>Chennai, India</span></div>
+        </div>
+      </div>
+      <div class="card-border-deco"></div>
+    </div>
+  </div>
+</section>
+
+<!-- 2. ABOUT -->
+<section id="about">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-badge">About</div>
+      <h2 class="section-title">Kishore K</h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <p>Software Engineer focused on building reliable web applications, AI-powered systems, and intuitive user experiences. I've grown from building modern frontends to working with machine learning models and mentoring students through complex technical concepts.</p>
+        <p style="margin-top:1rem;color:var(--t2)">I work best on projects where backend reliability, clean UI, and smart automation have to work together seamlessly.</p>
+        <div class="about-highlights">
+          <div class="highlight-item"><span class="accent">▸</span> Internship in Machine Learning at Nirloba IT PVT LTD</div>
+          <div class="highlight-item"><span class="accent">▸</span> Technical Trainer at Karyoun Innovations (Infosys & AMET)</div>
+          <div class="highlight-item"><span class="accent">▸</span> Built AI chatbot integrating Claude AI with n8n automation</div>
+        </div>
+      </div>
+      <div class="edu-cards reveal">
+        <div class="section-badge" style="margin-bottom:1rem">Education</div>
+        <div class="edu-card glass" style="margin-bottom:1rem">
+          <div class="edu-year">2020 – 2023</div>
+          <h3>Diploma – Computer Science</h3>
+          <p class="edu-school">Sri Sairam Polytechnic College, Chennai</p>
+        </div>
+        <div class="edu-card glass">
+          <div class="edu-year">2023 – 2026</div>
+          <h3>B.E – Computer Science</h3>
+          <p class="edu-school">Sri Sairam Institute of Technology, Chennai</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 3. EXPERIENCE -->
+<section id="experience">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-badge">Journey</div>
+      <h2 class="section-title">Professional Experience</h2>
+    </div>
+    <div class="timeline">
+      <div class="timeline-line"></div>
+
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card glass">
+          <div class="exp-meta">
+            <span class="exp-period">📅 Jan 2024 – July 2024</span>
+            <span class="exp-badge">EXPERIENCE</span>
+          </div>
+          <h3 class="exp-title">Web Developer</h3>
+          <p class="exp-company">Freelance / Remote</p>
+          <ul class="exp-list">
+            <li>Worked remotely on a website for a corporation.</li>
+            <li>Front-End Web Designer creating visually appealing and intuitive websites.</li>
+            <li>Worked with UI/UX and modern frameworks to enhance user experience.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card glass">
+          <div class="exp-meta">
+            <span class="exp-period">📅 27 Jan – 14 Feb 2026</span>
+            <span class="exp-badge">INTERNSHIP</span>
+          </div>
+          <h3 class="exp-title">Machine Learning Intern</h3>
+          <p class="exp-company">Nirloba IT PVT LTD</p>
+          <ul class="exp-list">
+            <li>Internship Training (OFFLINE) in the field of Machine Learning.</li>
+            <li>Demonstrated exemplary professional traits and executed tasks effectively.</li>
+            <li>Project: Bitcoin Price Prediction Using Machine Learning.</li>
+          </ul>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</section>
+
+<!-- 4. PROJECTS -->
+<section id="projects">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-badge">Portfolio</div>
+      <h2 class="section-title">Projects</h2>
+    </div>
+    <div class="projects-grid">
+      <div class="project-card glass reveal">
+        <div class="project-preview">
+          <img src="images/electrobot.png" alt="ElectroBot AI" class="project-img"/>
+        </div>
+        <div class="project-body">
+          <h3>AI Product Recommendation Chatbot</h3>
+          <p>Intelligent electronics recommendation chatbot integrating Claude AI with n8n workflow for real-time price comparison and budget detection.</p>
+          <div class="project-tags"><span>Claude AI</span><span>n8n</span><span>Node.js</span><span>NLP</span></div>
+          <div class="project-links"><a href="#" class="btn-outline btn-sm">GitHub ↗</a></div>
+        </div>
+      </div>
+      <div class="project-card glass reveal">
+        <div class="project-preview">
+          <img src="images/people-counter.png" alt="People Counter via Camera Feed" class="project-img"/>
+        </div>
+        <div class="project-body">
+          <h3>People Counter via Camera Feed</h3>
+          <p>Real-time people counting system using YOLO-based object detection with DeepSORT tracking to uniquely identify individuals in public areas.</p>
+          <div class="project-tags"><span>Python</span><span>YOLOv8</span><span>DeepSORT</span><span>OpenCV</span></div>
+          <div class="project-links"><a href="#" class="btn-outline btn-sm">GitHub ↗</a></div>
+        </div>
+      </div>
+      <div class="project-card glass reveal">
+        <div class="project-preview">
+          <img src="images/text-to-sql.png" alt="Hospital Text-to-SQL" class="project-img"/>
+        </div>
+        <div class="project-body">
+          <h3>Text-to-SQL LLM Fine-Tuning — Hospital Management</h3>
+          <p>Fine-tuned LLM that converts natural language questions into SQL queries for hospital databases.</p>
+          <div class="project-tags"><span>LLM Fine-Tuning</span><span>LoRA/QLoRA</span><span>Python</span><span>HuggingFace</span><span>SQLite</span></div>
+          <div class="project-links"><a href="#" class="btn-outline btn-sm">GitHub ↗</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 5. SKILLS -->
+<section id="skills">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-badge">Expertise</div>
+      <h2 class="section-title">Technical Stack</h2>
+    </div>
+    <div class="skills-grid-new">
+      <div class="skill-card-new glass reveal">
+        <h3 class="skill-cat-title"><span class="skill-brace">&#123;</span> Frontend <span class="skill-brace">&#125;</span></h3>
+        <div class="skill-tags">
+          <span>React</span><span>Next.js</span><span>TypeScript</span>
+          <span>JavaScript</span><span>HTML5</span><span>CSS3</span><span>Tailwind CSS</span>
+        </div>
+      </div>
+      <div class="skill-card-new glass reveal">
+        <h3 class="skill-cat-title"><span class="skill-brace">&#123;</span> Backend <span class="skill-brace">&#125;</span></h3>
+        <div class="skill-tags">
+          <span>Node.js</span><span>Spring Boot</span><span>REST APIs</span>
+        </div>
+      </div>
+      <div class="skill-card-new glass reveal">
+        <h3 class="skill-cat-title"><span class="skill-brace">&#123;</span> Database <span class="skill-brace">&#125;</span></h3>
+        <div class="skill-tags">
+          <span>MongoDB</span><span>PostgreSQL</span>
+        </div>
+      </div>
+      <div class="skill-card-new glass reveal">
+        <h3 class="skill-cat-title"><span class="skill-brace">&#123;</span> Tools &amp; Platforms <span class="skill-brace">&#125;</span></h3>
+        <div class="skill-tags">
+          <span>Git</span><span>GitHub</span><span>Vercel</span><span>VS Code</span>
+          <span>n8n</span><span>Google Antigravity</span><span>Claude Code</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Certifications inside Skills -->
+    <div style="margin-top:4rem">
+      <div class="section-header">
+        <div class="section-badge">Credentials</div>
+        <h2 class="section-title">Certifications</h2>
+      </div>
+      <div class="certs-grid">
+        <div class="cert-card glass reveal">
+          <div class="cert-icon">🏅</div>
+          <h3>Generative AI</h3>
+          <p>Sairam – HCL GUVI</p>
+          <ul><li>Fundamentals of LLMs, prompt engineering, and AI workflows.</li></ul>
+        </div>
+        <div class="cert-card glass reveal">
+          <div class="cert-icon">🛡️</div>
+          <h3>Intro to Cybersecurity</h3>
+          <p>Cisco</p>
+          <ul><li>Network security, malware, phishing, and cyber attacks.</li></ul>
+        </div>
+        <div class="cert-card glass reveal">
+          <div class="cert-icon">📊</div>
+          <h3>Machine Learning</h3>
+          <p>IBM SkillsBuild</p>
+          <ul><li>Basics of ML, data management, and practical applications.</li></ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 6. CONTACT -->
+<section id="contact">
+  <div class="container">
+    <div class="contact-grid">
+      <div class="contact-left reveal">
+        <h2 class="section-title">Let's Build Something</h2>
+        <p>Open to Software Engineering, Backend, and AI Developer opportunities, as well as thoughtful collaborations.</p>
+        <div class="contact-links">
+          <a href="mailto:kishoreswamy2005@gmail.com" class="contact-link">
+            <span class="contact-link-icon">✉</span>
+            <div><small>Email</small><strong>kishoreswamy2005@gmail.com</strong></div>
+          </a>
+          <a href="https://www.linkedin.com/in/kishore-k-1177283a7" target="_blank" class="contact-link">
+            <span class="contact-link-icon">in</span>
+            <div><small>LinkedIn</small><strong>linkedin.com/in/kishore-k-1177283a7</strong></div>
+          </a>
+          <a href="https://github.com/kishoreswamy2005-droid" class="contact-link">
+            <span class="contact-link-icon"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></span>
+            <div><small>GitHub</small><strong>github.com/kishoreswamy2005-droid</strong></div>
+          </a>
+        </div>
+      </div>
+      <div class="contact-right glass reveal">
+        <h3>Interested in my work?</h3>
+        <p>Download my full resume for a detailed view of my expertise.</p>
+        <a href="resume.pdf" download="Kishore_K_Resume.pdf" class="btn-primary">Download Resume</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container footer-inner">
+    <div class="logo"><span class="logo-icon">K</span><span class="logo-text">Kishore K</span></div>
+    <p>© 2026 Kishore K · Built with ♥ using HTML &amp; CSS</p>
+    <div class="footer-links">
+      <a href="https://github.com/kishoreswamy2005-droid" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/kishore-k-1177283a7" target="_blank">LinkedIn</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
